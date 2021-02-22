@@ -86,19 +86,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.company development {                                   /*gouped all the former company development tags that were singled out with same properties into one group*/   
     margin-bottom: 32px;
     color: #ffffff;
-}
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+.company development img {                               /*gouped all the former company development img tags that were singled out with same properties into one group*/   
+    display: block;
+    margin: 10px auto;
+    max-height: 20px;
 }
 
 .benefit-lead h3 {
@@ -116,25 +111,8 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.categories {
+.categories {                                 /*gouped all the former categories that were singled out with same properties into one group and renamed them*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +121,7 @@ p {
     color: #ffffff;
 }
 
-.categories img {
+.categories img {                              /*gouped all the former categories img that were singled out with same properties into one group and renamed them*/
     max-height: 200px;
 }
 
