@@ -39,11 +39,13 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
-a {
+.a {
     color: #ffffff;
     text-decoration: none;
+    float: right;
 }
 
 p {
@@ -89,11 +91,6 @@ p {
 .company development {                                   /*gouped all the former company development tags that were singled out with same properties into one group*/   
     margin-bottom: 32px;
     color: #ffffff;
-
-.company development img {                               /*gouped all the former company development img tags that were singled out with same properties into one group*/   
-    display: block;
-    margin: 10px auto;
-    max-height: 20px;
 }
 
 .benefit-lead h3 {
@@ -111,6 +108,12 @@ p {
     text-align: center;
 }
 
+.company development img {                               /*gouped all the former company development img tags that were singled out with same properties into one group*/   
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 
 .categories {                                 /*gouped all the former categories that were singled out with same properties into one group and renamed them*/
     margin-bottom: 20px;
@@ -126,7 +129,7 @@ p {
 }
 
 .categories h2 {
-    margin-bottom: 20px;
+    margin-bottom: 20px;                         /*gouped all the former categories etc that were singled out with same properties into one group and renamed them*/
     font-size: 36px;
 }
 
